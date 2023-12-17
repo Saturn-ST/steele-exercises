@@ -1,0 +1,85 @@
+body{
+    background-color: #faebd7;
+    color: #563646;
+}
+h1{
+    text-align: center;
+    font-weight: normal; /* 400 */
+    text-decoration: 4px #d99a6c line-through wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: "Arial Narrow", Roboto, Candara, sans-serif;
+    font-family: fantasy;
+}
+h2, h3{
+    text-align: center;
+    font-weight: normal; /* 400 */
+    letter-spacing: 15px;
+    font-size: 60px;
+    font-family: fantasy;
+}
+.item a {
+    text-decoration: none;
+    color: #032720;
+    background-color: rgb(86, 54, 70, .5);
+}
+
+p{
+    line-height: 2;
+}
+button{
+    font-size: 25px;
+    background-color: #d99a6c;
+}
+span{
+    color: #002f3e;
+}
+#signup{
+    background-color: #563646;
+    color: #faebd7;
+}
+.tag{
+    background-color: #032720;
+    color: #faebd7;
+    border-radius: 1em;
+    font-size: 16px;
+}
+
+footer a{
+    color: #000919;
+}
+footer li{
+    list-style: none;
+}
+input + button{ /* "+" means it comes immediately after not that it's decended*/
+    border: 2px solid #032720;
+    color: #faebd7;
+}
+p + button{
+    font-size: 20px;
+    border: none;
+    background-color: #faebd7;
+}
+p+button:hover{
+    background-color: #d99a6c;
+}
+
+footer > a{ /* "<" means direct descendant*/
+    color: #d99a6c;
+}
+
+input[type="text"]{
+    color: #563646;
+}
+textarea{
+    color: #563646;
+}
+a[href*="google"]{
+    color: #d99a6c;
+}
+header>form{
+    display: inline;
+}
+header>form>button{
+    font-size: 17px;
+}
