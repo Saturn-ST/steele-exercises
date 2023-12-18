@@ -6,7 +6,7 @@ Black 000919
 Purple-ish brown 563646
 Dark blue 002f3e */
 
-/* Psuedo Classes examples
+/* Psuedo Class examples
 :active
 :checked
 :first
@@ -16,10 +16,23 @@ Dark blue 002f3e */
 :nth-child()
 :nth-of-type() */
 
+/* Psuedo Element exampls
+::first-letter
+:: */
+
+/* example: "footer li" */ /* empty space means inside of */
+/* example: input + button */ /* "+" means immediately following*/
+/* footer > a */ /* "<" means direct descendant */
+
+
 
 body{
     background-color: #faebd7;
     color: #563646;
+}
+::selection{
+    background-color: #032720;
+    color: white;
 }
 .flex-nav {
     padding: 1em;
@@ -51,9 +64,16 @@ h2, h3{
     color: #032720;
     background-color: rgb(86, 54, 70, .5);
 }
+.item p:first-of-type::first-letter{
+        font-size: 4em;
+}
 
 p{
     line-height: 2;
+}
+p::selection{
+    background-color: #563646;
+    color: #faebd7;
 }
 button{
     font-size: 25px;
@@ -83,7 +103,7 @@ span{
 footer a{
     color: #000919;
 }
-footer li{
+footer li{ /* empty space means inside of */
     list-style: none;
 }
 input + button{ /* "+" means immediately following not that it's descended*/
@@ -111,7 +131,7 @@ p+button:active{
     color: white;
 }
 
-footer > a{ /* "<" means direct descendant*/
+footer > a{ /* "<" means direct descendant */
     color: #d99a6c;
 }
 footer a{
