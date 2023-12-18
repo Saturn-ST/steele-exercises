@@ -7,17 +7,21 @@
     <title>CSS Intro</title>
 </head>
 <body>
-    <header>
-    <form action="search/">
-    <label for="search">Search: </label>
-    <input type="text" name="search" id="search" placeholder="Enter search">
-    <button>Search</button>
-</form>
-<form action="login">
-    <button>Sign in</button>
-    <button id="signup">Sign up</button>
-</form>
+    <header class="flex-nav">
+    <nav class="nav-bar">
+    <form action="search/" class="nav-item search-item">
+        <label for="search">Search: </label>
+        <input type="text" name="search" id="search" placeholder="Enter search">
+        <button>Search</button>
+    </form>
+    <form action="login" class="nav-item signup-item">
+        <button>Sign in</button>
+        <button id="signup">Sign up</button>
+    </form>
+</nav>
 </header>
+
+
 <section class="item">
     <h1>CSS Text Properties</h1>
     <hr>
@@ -41,18 +45,39 @@
     <p>The Good Place Lorem Ipsum, Blake Bortles, Not a girl, Middle place, Padagonia, Shrimp, Florida, Bad Place, Good Place, Chidi, Mailman, Clowns, Bowtie, Suspenders, Mean Giraffe Sexy, Jason, Monk, Vow of silence, Thaiwanese, Philipeno, Tahani Al-Jamil, The problem is, if all you care about in the world is the velvet rope, you will always be unhappy, no matter which side you&apos;re on., Sexy Skyscraper, Sexy Tan Repunzal, Hot Stuff, Gorgeous, Tahammy All-Themeals, Babe, Fork, Good Place Architect, Soul Squad, Self-help author, Party Planner, Model, Museum Curator, Baz Luhrmann&apos;s Muse, Oxford University, Sorbonne, What the Fork?!</p>
     <button>More</button>
 </section>
+<section class="item list">
+    <h2>List CSS Properties</h2>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+</section>
 
 <footer>
     <nav>
         <ul>
             <li>
-                <a href="">Home</a>
+                <a href="#">Home</a>
             </li>
             <li>
-                <a href="">About</a>
+                <a href="#">About</a>
             </li>
             <li>
-                <a href="">Contact</a>
+                <a href="#">Contact</a>
             </li>
             <li>
                 <a href="www.google.com">Google</a>
