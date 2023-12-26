@@ -7,6 +7,7 @@
     <title>CSS Intro</title>
 </head>
 <body>
+
     <header class="flex-nav">
     <nav class="nav-bar">
     <form action="search/" class="nav-item search-item">
@@ -20,7 +21,31 @@
     </form>
 </nav>
 </header>
+<main>
 
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="www.google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <div class="css-logo-container">
+    <img class="css-logo"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/730px-CSS.3.svg.png" alt="">
+    <p>Transition 1second</p>
+</div>
 
 <section class="item">
     <h1>CSS Text Properties</h1>
@@ -36,7 +61,7 @@
     <p>The Good Place Lorem Ipsum, Blake Bortles, Not a girl, Middle place, Padagonia, Shrimp, Florida, Bad Place, Good Place, Chidi, Mailman, Clowns, Bowtie, Suspenders, Mean Giraffe Sexy, Jason, Monk, Vow of silence, Thaiwanese, Philipeno, Tahani Al-Jamil, The problem is, if all you care about in the world is the velvet rope, you will always be unhappy, no matter which side you&apos;re on., Sexy Skyscraper, Sexy Tan Repunzal, Hot Stuff, Gorgeous, Tahammy All-Themeals, Babe, <span class="tag">Fork</span>, Good Place Architect, Soul Squad, Self-help author, Party Planner, Model, Museum Curator, Baz Luhrmann&apos;s Muse, Oxford University, Sorbonne, What the Fork?!</p>
     <button>More</button>
 </section>
-<section class="item">
+<section class="item relative-item">
     <h2>More CSS Text Properties</h2>
     <br>
     <h3>Other Paragraphs</h3>
@@ -67,30 +92,43 @@
     </ul>
 </section>
 
+
+<!-- TRANSITION SECTION -->
+<div class="transition"></div>
+<section class="transition-timing-function">
+    <div class="trans-div"></div>
+    <div class="trans-div"></div>
+    <div class="trans-div"></div>
+    <div class="trans-div"></div>
+</section>
+
+
+
+<!-- TRANSFORM SECTION  -->
+<section class="trans top">
+    <h2>Charlie Brown</h2>
+    <h2>Stuart Little</h2>
+    <h2>Elizabeth Tylor</h2>
+    <h2>Bonnie</h2>
+    <h2>Bean</h2>
+</section>
+<section class="trans btm">
+    <h2>Puck</h2>
+    <h2>Kasha</h2>
+    <h2>Bijou</h2>
+    <h2>Finley</h2>
+</section>
+
+</main>
+
 <footer>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="www.google.com">Google</a>
-            </li>
-        </ul>
-    </nav>
     <a href="#">Buy me a cup of mushroom coffee</a>
     <form action="">
         <div>
         <label for="name">Name</label>
         <input type="text" id="name">
     </div>
-        <textarea name="contact" id="contact" cols="30" rows="10" placeholder="Write me your story..."></textarea>
+        <textarea name="contact" id="contact" cols="30" rows="5" placeholder="Write me your story..."></textarea>
 </form>
 <br>
     <small>copyright 2023</small>
